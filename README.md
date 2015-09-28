@@ -1,8 +1,5 @@
 ## Thermocouple-calibrator
 
-----
-### Purpose
-
 This app provides a collection of thermocouple calibration tools for use with the standard thermocouple reference functions.
 
 ----
@@ -11,7 +8,7 @@ This app provides a collection of thermocouple calibration tools for use with th
 Students, Scientists, Engineers
 
 ----
-### Primary functions
+### Purposes
 
 * To calibrate for the measuring junction temperature of a basic thermocouple circuit based on the reference junction temperature and the voltmeter measurement provided by the user;
 * To compute the reference function and its inverse for a specific thermocouple type*, using input value provided by the user. The exact working of the computation is displayed;
