@@ -1,4 +1,4 @@
-## Thermocouple-calibrator
+## Thermocouple Calibrator
 
 This app provides a collection of thermocouple calibration tools for use with the standard thermocouple reference functions.
 
