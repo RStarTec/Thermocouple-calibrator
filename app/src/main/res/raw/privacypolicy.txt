@@ -1,0 +1,17 @@
+
+This privacy policy covers issues related to the personal information collected by this app. 
+
+
+Collection of Personal Information:
+
+The user's privacy is of utmost importance to us (the developers). We do our best to protect the user's personal information. We do not sell the user's personal information to third parties. This app does not request, collect or share any personal information such as the user's name, age, location or ISP, without the user's consent. 
+
+Bug reports:
+
+This app may generate log information for bug reports. This information is used strictly by the developers to improve the quality of the product.
+
+Third-party services:
+
+This app provides access to third-party tools and services such as web search and email, which we have no control over. Unfortunately, we cannot take responsibility for these third-party services. 
+
+By installing or using this app, you consent with this Privacy Policy. 

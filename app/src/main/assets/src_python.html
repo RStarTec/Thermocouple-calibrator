@@ -1,0 +1,108 @@
+<!--
+  ~ Copyright (c) 2015 Annie Hui @ RStar Technology Solutions
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<body bgcolor="#FFF5D8">
+<h2>
+Programs for calculating the thermocouple reference function and its inverse
+</h2>
+
+<h3> Python Implementation </h3>
+<table border="1" cellpadding="2" style="width:100%">
+  <tr>
+      <td valign="top"><b>Package</b></td>
+      <td>
+          <b> <a href="https://sites.google.com/site/mobilethermocouple/v1/python-implementation/tc_python.zip">tc_python.zip</a> </b>
+          (download)
+          <br>
+          This package consists of:
+          <ul>
+              <li> the implementation of the reference function and the inverse function </li>
+              <li> demo and sample tests </li>
+              <li> sample data obtained from the NIST database </li>
+              <li> sample test results </li>
+          </ul>
+          External libraries used by this package may be downloaded separately if not included in this distribution (see Libraries).
+      </td> 
+  </tr>
+
+  <tr>
+  <tr>
+      <td valign="top"><b>Reference Function</b></td>
+      <td>
+          <b> <a href="https://sites.google.com/site/mobilethermocouple/v1/python-implementation/py-fn">Fn.py</a> </b>
+          <br>
+          This class consists of methods to:
+          <ul>
+              <li> load the parameters of a reference function in JSON format </li>
+              <li> compute the EMF for a given temperature T </li>
+              <li> compute the derivative of EMF with respect to a given temperature T </li>
+          </ul>
+    </td> 
+  </tr>
+
+  <tr>
+      <td valign="top"><b>Inverse Function</b></td>
+      <td>
+          <b> <a href="https://sites.google.com/site/mobilethermocouple/v1/python-implementation/py-fninv">FnInv.py</a> </b>
+          <br>
+          This class consists of methods to:
+          <ul>
+              <li> load the parameters of an inverse function in JSON format </li>
+              <li> compute the temperature T for a given EMF  </li>
+          </ul>
+      </td> 
+  </tr>
+
+  <tr>
+      <td valign="top"><b>Demo</b></td>
+      <td>
+          <b> <a href="https://sites.google.com/site/mobilethermocouple/v1/python-implementation/py-demo">demo.py</a> </b>
+          <br>
+          This script consists of a demo on how to apply the functions to a basic circuit.
+      </td>
+
+  </tr>
+
+  <tr>
+      <td valign="top"><b>Tests</b></td>
+      <td>
+          <b> <a href="https://sites.google.com/site/mobilethermocouple/v1/python-implementation/py-test">test.py</a> </b>
+          <br>
+          This script consists of a collection of sample tests on the values of F and Finv.
+          The results of these sample tests may be viewed at:
+          <a href="https://sites.google.com/site/mobilethermocouple/v1/python-implementation/python-test-charts">Python test results</a>
+      </td>
+
+  </tr>
+
+      <td valign="top"><b>Platforms</b></td>
+      <td> This package has been compiled and tested under Python version 2.7 <br>
+      </td>
+  </tr>
+
+  <tr>
+      <td valign="top"><b>Libraries</b></td>
+      <td> This package requires the use of the following libraries: <br>
+          <ul>
+              <li> (none) </li>
+          </ul>
+      </td> 
+  </tr>
+</table>
+
+<br>
+
+</body>

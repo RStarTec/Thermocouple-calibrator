@@ -1,0 +1,79 @@
+{
+  "thermocouple type": "N",
+   "data": [
+   {
+		"ErrorRange": [
+        "-0.02",
+        "0.03"
+      ],
+      "Tmax": "0.",
+      "Tmin": "-200.",
+	  "Emax": "0.000",
+	  "Emin": "-3.990",
+	  "Coefficients":  [
+		"0.0000000E+00",
+		"3.8436847E+01",
+		"1.1010485E+00",
+		"5.2229312E+00",
+		"7.2060525E+00",
+		"5.8488586E+00",
+		"2.7754916E+00",
+		"7.7075166E-01",
+		"1.1582665E-01",
+		"7.3138868E-03"
+		]
+		
+	},
+	{
+	"ErrorRange": [
+        "-0.02",
+        "0.03"
+      ],
+      "Tmax": "600.",
+      "Tmin": "0.",
+	  "Emax": "20.613",
+	  "Emin": "0.000",
+	  "Coefficients":  [
+		"0.00000E+00",
+		"3.86896E+01",
+	    "-1.08267E+00",
+		"4.70205E-02",
+		"-2.12169E-06",
+		"-1.17272E-04",
+		"5.39280E-06",
+		"-7.98156E-08",
+		"0.00000E+00",
+		"0.00000E+00"
+		]
+	},
+	{
+	"ErrorRange": [
+        "-0.04",
+        "0.02"
+      ],
+      "Tmax": "1300.",
+      "Tmin": "600.",
+	  "Emax": "47.513",
+	  "Emin": "20.613",
+	  "Coefficients":  [
+		"1.972485E+01",
+		"3.300943E+01",
+	    "-3.915159E-01",
+		"9.855391E-03",
+		"-1.274371E-04",
+		"7.767022E-07",
+		"0.00000E+00",
+		"0.00000E+00",
+		"0.00000E+00",
+		"0.00000E+00"
+		]
+	}
+	],
+	"coefficient type": "reference function on ITS-90 inverse",
+	"equation": "t_90 = d_0 + d_1*E + d_2*E^2 ...+ d_n*E^n",
+	"units": {
+		"T": "°C",
+		"EMF": "mV"
+	},
+	"citation": "Burns, G. W.; Scroger, M. G.; Strouse, G. F.; Croarkin, M. C.; Guthrie, W. F. Temperature-Electromotive Force Reference Functions and Tables for the Letter-Designated Thermocouple Types Based on the ITS-90. Natl. Inst. Stand. Technol. Monograph 175; 1993. 630 p"	
+}

@@ -1,0 +1,5 @@
+This product uses data provided by the National Institute of Standards and Technology (NIST) but is not endorsed or certified by NIST.
+
+The "NIST ITS-90 Thermocouple Database (NIST SRD 60)" used by this Product is obtained from the NIST website at 
+
+http://srdata.nist.gov/its90/main/

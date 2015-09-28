@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Thermocouple Calibrator</string>
+
+    <string name="label_Fn">F</string>
+    <string name="label_FnInv">Finv</string>
+    <string name="label_Eequals">EMF =</string>
+    <string name="label_EPequals">EMF<sub>p</sub> =</string>
+    <string name="label_Tequals">T =</string>
+    <string name="label_blank">&#160;</string>
+    <string name="label_xpower">x<sup>n</sup></string>
+    <string name="label_coefficient">Coefficient</string>
+
+    <string name="label_a0equals">a<sub>0</sub> =</string>
+    <string name="label_a1equals">a<sub>1</sub> =</string>
+    <string name="label_a2equals">a<sub>2</sub> =</string>
+    <string name="label_Tr">Tr</string>
+    <string name="label_T">T</string>
+    <string name="label_E">EMF</string>
+    <string name="label_S">S</string>
+    <string name="label_expEquals">a<sub>0</sub> exp( a<sub>1</sub> (T-a<sub>2</sub>)<sup>2</sup>) =</string>
+    <string name="label_E_typeK">EMF = EMF<sub>p</sub> + a<sub>0</sub> exp( a<sub>1</sub> (T-a<sub>2</sub>)<sup>2</sup>)</string>
+
+
+    <string name="label_inputTr_range">Valid input range for Tr: [%1$.2f, %2$.2f]&#160;</string>
+    <string name="label_inputT_range">Valid input range for T: [%1$.2f, %2$.2f]&#160;</string>
+    <string name="label_inputE_range">Valid input range for EMF: [%1$.3f, %2$.3f]&#160;</string>
+    <string name="label_intermediateE_range">For given Tr, valid range for EMF: [%1$.3f, %2$.3f]&#160;</string>
+
+    <string name="label_polynomialFn">Polynomial used for computing EMF for T in range [%1$.2f, %2$.2f]:</string>
+    <string name="label_polynomialFnInv">Polynomial used for computing T for EMF in range [%1$.4f, %2$.4f]:</string>
+
+    <string name="label_showFn">Parameters of F</string>
+    <string name="label_showFnInv">Parameters of Finv</string>
+
+    <string name="label_thermocouple">Thermocouple Type</string>
+    <string name="label_voltmeterReading">Voltmeter reading EMF</string>
+    <string name="label_rjunctionTemp">Reference junction temperature Tr</string>
+    <string name="label_mjunctionTemp">Measuring junction temperature T</string>
+    <string name="label_isothermal">Isothermal</string>
+    <string name="label_mjunction">Measuring junction</string>
+
+    <string name="info_referenceFunctions">The reference functions are computed at reference temperature 0&#160;</string>
+    <string name="info_seebeck">The Seebeck coefficients are computed as the derivative of the reference function F</string>
+
+    <string name="menu_eula">End-user License Agreement</string>
+    <string name="menu_privacy">Privacy Policy</string>
+    <string name="menu_acknowledgment">Acknowledgment</string>
+    <string name="button_OK">OK</string>
+
+</resources>
